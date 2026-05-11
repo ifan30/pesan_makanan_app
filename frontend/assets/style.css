@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+
+    background:
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url('https://images.unsplash.com/photo-1504754524776-8f4f37790ca0');
+
+    background-size:cover;
+    background-position:center;
+
+    min-height:100vh;
+}
+
+/* CONTAINER */
+.container{
+
+    width:90%;
+
+    max-width:900px;
+
+    margin:auto;
+
+    padding-top:40px;
+
+    padding-bottom:40px;
+}
+
+/* HEADER */
+.header-card{
+
+    margin-bottom:25px;
+
+    color:white;
+}
+
+.header-card h1{
+
+    font-size:40px;
+
+    color:#6dd5ed;
+
+    margin-bottom:10px;
+}
+
+.header-card p{
+
+    color:#ddd;
+
+    font-size:17px;
+}
+
+/* CARD */
+.card{
+
+    background:rgba(255,255,255,0.92);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    margin-bottom:30px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,0.3);
+}
+
+/* CARD HEADER */
+.card-header{
+
+    background:linear-gradient(90deg,#2193b0,#6dd5ed);
+
+    color:white;
+
+    padding:18px;
+
+    font-size:18px;
+
+    font-weight:bold;
+}
+
+/* CARD BODY */
+.card-body{
+
+    padding:25px;
+}
+
+/* LABEL */
+label{
+
+    display:block;
+
+    margin-top:15px;
+
+    margin-bottom:8px;
+
+    color:#333;
+
+    font-weight:600;
+}
+
+/* INPUT */
+input,
+select{
+
+    width:100%;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    border:1px solid #ccc;
+
+    outline:none;
+
+    font-size:15px;
+}
+
+/* BUTTON */
+.btn{
+
+    margin-top:20px;
+
+    background:linear-gradient(90deg,#2193b0,#6dd5ed);
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+    transition:0.3s;
+}
+
+.btn:hover{
+
+    opacity:0.9;
+}
+
+/* TABLE */
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+}
+
+th{
+
+    text-align:left;
+
+    padding:15px;
+
+    color:#666;
+
+    border-bottom:1px solid #ddd;
+}
+
+td{
+
+    padding:15px;
+
+    color:#333;
+}
+
+/* STATUS */
+.status{
+
+    background:#d9f3ff;
+
+    color:#2193b0;
+
+    padding:7px 14px;
+
+    border-radius:20px;
+
+    font-size:13px;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+
+    .container{
+        width:95%;
+    }
+
+    .header-card h1{
+        font-size:28px;
+    }
+
+    table{
+        font-size:13px;
+    }
+
+}
+/* BUTTON HAPUS */
+.hapus{
+
+    background:#ff4d4d;
+
+    color:white;
+
+    border:none;
+
+    padding:8px 14px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+    transition:0.3s;
+}
+
+.hapus:hover{
+
+    background:#e60000;
+}
