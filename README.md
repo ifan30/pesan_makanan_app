@@ -1,11 +1,11 @@
-# LAPORAN AKSES & SETUP PROYEK - APLIKASI PEMESANAN MAKANAN
+LAPORAN AKSES & SETUP PROYEK - APLIKASI PEMESANAN MAKANAN
 **Status:** Siap Dikerjakan | **Versi:** 1.0 | **Update:** 11 Mei 2026
 
 ---
 
-## 📋 HALAMAN 1: OVERVIEW & PERSYARATAN SISTEM
+HALAMAN 1: OVERVIEW & PERSYARATAN SISTEM
 
-### 1.1 Deskripsi Proyek
+1.1 Deskripsi Proyek
 **Aplikasi Pemesanan Makanan** adalah sistem web untuk memesan makanan cepat saji secara online.
 - **Fungsi Utama:** Tambah pesanan → Checkout → Konfirmasi
 - **Database:** MySQL (bawang_goreng)
@@ -23,13 +23,13 @@
 ### 1.3 Persyaratan Sistem (WAJIB DIPENUHI)
 
 **Software yang Harus Diinstall:**
-1. ✅ **XAMPP** (Apache + PHP + MySQL)
+1.  **XAMPP** (Apache + PHP + MySQL)
    - Download: https://www.apachefriends.org/
    - Minimal versi: 7.4 ke atas
    
-2. ✅ **Web Browser** (Chrome/Firefox/Edge)
+2.  **Web Browser** (Chrome/Firefox/Edge)
    
-3. ✅ **Text Editor** (VS Code/Notepad++)
+3.  **Text Editor** (VS Code/Notepad++)
 
 **Spesifikasi Hardware Minimum:**
 - RAM: 2 GB
@@ -58,7 +58,7 @@ C:\xampp\htdocs\
 
 ---
 
-## 🚀 HALAMAN 2: PANDUAN INSTALASI LANGKAH DEMI LANGKAH
+##  HALAMAN 2: PANDUAN INSTALASI LANGKAH DEMI LANGKAH
 
 ### 2.1 STEP 1: Download & Extract Proyek
 
@@ -86,8 +86,8 @@ git clone <url-repo> pesan_makanan_app
 **Jalankan XAMPP:**
 1. Buka **XAMPP Control Panel**
 2. Klik tombol **START** untuk:
-   - ✅ Apache
-   - ✅ MySQL
+   -  Apache
+   -  MySQL
 3. Status harus **GREEN** (running)
 
 ### 2.3 STEP 3: Setup Database
@@ -150,7 +150,7 @@ CREATE TABLE detail_pesanan (
    <?php
    $conn = new mysqli("localhost", "root", "", "bawang_goreng");
    if ($conn->connect_error) {
-       die("❌ Koneksi gagal: " . $conn->connect_error);
+       die(" Koneksi gagal: " . $conn->connect_error);
    }
    echo "✓ Database terhubung!";
    ?>
@@ -164,10 +164,10 @@ http://localhost/pesan_makanan_app/frontend/index.php
 ```
 
 **Verifikasi akses berhasil:**
-- ✅ Halaman load tanpa error
-- ✅ Form "Tambah Order" muncul
-- ✅ Menu dropdown menampilkan 7 pilihan makanan
-- ✅ Tombol "Tambah Order" berfungsi
+- Halaman load tanpa error
+- Form "Tambah Order" muncul
+- Menu dropdown menampilkan 7 pilihan makanan
+- Tombol "Tambah Order" berfungsi
 
 ---
 
@@ -199,7 +199,7 @@ URL: http://localhost/pesan_makanan_app/frontend/index.php
 
 ### 3.2 Troubleshooting - Solusi Masalah Umum
 
-| ❌ Masalah | ✅ Solusi |
+|  Masalah |  Solusi |
 |-----------|---------|
 | **XAMPP tidak bisa dijalankan** | Jalankan as Administrator |
 | **MySQL tidak bisa start (Orange)** | Restart PC, atau buka Task Manager → kill "mysqld.exe" → restart XAMPP |
@@ -246,10 +246,10 @@ Sebelum memberikan akses ke orang lain, pastikan:
 ### 3.5 File Penting untuk Orang Lain
 
 **Berikan file-file ini:**
-- ✅ Folder lengkap "pesan_makanan_app"
-- ✅ File README.md (dokumentasi ini)
-- ✅ Script SQL untuk buat database
-- ✅ Panduan instalasi (instruksi langkah 2.1 - 2.5)
+-  Folder lengkap "pesan_makanan_app"
+-  File README.md (dokumentasi ini)
+-  Script SQL untuk buat database
+-  Panduan instalasi (instruksi langkah 2.1 - 2.5)
 
 **Jangan lupa sampaikan:**
 1. Install XAMPP dulu sebelum jalankan proyek
